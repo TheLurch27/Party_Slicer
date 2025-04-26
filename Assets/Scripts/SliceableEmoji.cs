@@ -15,6 +15,7 @@ public class SliceableEmoji : MonoBehaviour
             SpawnHalves();
             SpawnSplatter();
             SpawnBloodStain();
+            ScoreManager.instance.AddPoints(10);
             Destroy(gameObject);
         }
     }
